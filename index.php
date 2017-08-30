@@ -12,7 +12,7 @@
 //explode()分割字符串
 
     $dir='main';//默认文件夹名称，这个文件夹名称是views文件夹里面的
-    $filename='index';//默认文件名称
+    $filename='login';//默认文件名称
     //判断路径是否存在，存在的话就对路径进行解析
     if(array_key_exists('PATH_INFO',$_SERVER)){
     //获取URL中的路径
