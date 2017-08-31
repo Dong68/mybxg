@@ -24,7 +24,7 @@ define(['jquery','template','cookie'], function ($,template) {
 	});
 	//验证是否登录
 	var seesionId= $.cookie('PHPSESSID');
-	console.log(seesionId);
+	//console.log(seesionId);
 	//location.pathname=获取地址的 你们，。
 	if(!seesionId&&location.pathname!='/main/login'){
 		location.href='/main/login';
